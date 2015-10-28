@@ -1,0 +1,25 @@
+TASKEXPLORER CHANGELOG
+
+
+VERSION 1.2.0 (10/11/2015)
+ el capitan/rootless compatibility
+ autocomplete search/filter 
+ keyboard shortcuts (cmd+s, cmd+r, cmd+f, cmd+w)
+ network results included in global search results
+ xpc-comms refactor (major speed improvement!)
+ ui fixes/improvements
+
+
+VERSION 1.1.0 (8/23/2015)
+ added a global search window (tasks, dylibs, files)
+ added a flagged items window for any flagged tasks or dylibs 
+ xpc-helper's security improved by allowing only Objective-See binary to connect
+ ui fixes/improvements
+
+
+VERSION 1.0.1 (8/5/2015)
+ fixed crash on Mavericks (NSSearchField/setPlaceholderString:)	
+
+
+VERSION 1.0.0 (8/5/2015)
+ initial release
