@@ -25,12 +25,12 @@
 		CD6AFB831B4BAA2100D42C34 /* refreshIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AFB821B4BAA2100D42C34 /* refreshIcon.png */; };
 		CD6AFB861B4BABB200D42C34 /* refreshIconBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AFB841B4BABB200D42C34 /* refreshIconBG.png */; };
 		CD6AFB871B4BABB200D42C34 /* refreshIconOver.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AFB851B4BABB200D42C34 /* refreshIconOver.png */; };
-		CD74522E1BCCAE50006EE37A /* Kext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74522D1BCCAE50006EE37A /* Kext.m */; settings = {ASSET_TAGS = (); }; };
+		CD74522E1BCCAE50006EE37A /* Kext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74522D1BCCAE50006EE37A /* Kext.m */; };
 		CD7B9F4D1ACB959200DF3C71 /* logoAppleOver.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9F4C1ACB959200DF3C71 /* logoAppleOver.png */; };
 		CD7B9F501ACB9A8400DF3C71 /* Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9F4F1ACB9A8400DF3C71 /* Exception.m */; };
 		CD7B9FAB1AD08FA100DF3C71 /* KKRow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9FAA1AD08FA100DF3C71 /* KKRow.m */; };
 		CD83887F1AACCEDF000EB098 /* VirusTotal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD83887E1AACCEDF000EB098 /* VirusTotal.m */; };
-		CD8C73B71BDB2171001B5A7D /* kvText.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8C73B61BDB2171001B5A7D /* kvText.png */; settings = {ASSET_TAGS = (); }; };
+		CD8C73B71BDB2171001B5A7D /* kvText.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8C73B61BDB2171001B5A7D /* kvText.png */; };
 		CD8C73B91BDDDCC4001B5A7D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8C73B81BDDDCC4001B5A7D /* SystemConfiguration.framework */; };
 		CDA81D4F1A95B492009790E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81D451A95B492009790E2 /* AppDelegate.m */; };
 		CDA81D531A95B492009790E2 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81D4E1A95B492009790E2 /* Utilities.m */; };
@@ -497,6 +497,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -516,8 +517,11 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "KextViewr-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = KextViewr;
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -534,6 +538,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -546,8 +551,11 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "KextViewr-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = KextViewr;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -561,6 +569,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KextViewr-Prefix.pch";
 				INFOPLIST_FILE = "KextViewr-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = KextViewr;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -576,6 +585,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KextViewr-Prefix.pch";
 				INFOPLIST_FILE = "KextViewr-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = KextViewr;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
