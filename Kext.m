@@ -6,12 +6,12 @@
 //  Copyright (c) 2015 Objective-See. All rights reserved.
 //
 
-
 #import "Kext.h"
 #import "Consts.h"
 #import "Utilities.h"
 #import "AppDelegate.h"
 
+#import <syslog.h>
 #import <IOKit/Kext/KextManager.h>
 
 @implementation Kext
@@ -36,23 +36,48 @@
     {
         //get url to bundle
         bundleURL = KextManagerCreateURLForBundleIdentifier(NULL, (__bridge CFStringRef)bundleID);
-        
-        //load bundle and extract name/path
-        if(nil != bundleURL)
+        if(nil == bundleURL)
         {
-            //load bundle
-            self.bundle = [NSBundle bundleWithURL:(__bridge NSURL * _Nonnull)(bundleURL)];
-        
-            //extract name/path
-            if(nil != self.bundle)
-            {
-                //get name
-                self.name = [self getName];
+            //err msg
+            syslog(LOG_ERR, "OBJECTIVE-SEE ERROR: could find bundle URL for %s", bundleID.UTF8String);
                 
-                //extract path
-                self.path = [self.bundle.executableURL path];
-            }
+            //unset object
+            self = nil;
+            
+            //bail
+            goto bail;
         }
+        
+        //load bundle
+        self.bundle = [NSBundle bundleWithURL:(__bridge NSURL * _Nonnull)(bundleURL)];
+        if(nil == self.bundle)
+        {
+            //err msg
+            syslog(LOG_ERR, "OBJECTIVE-SEE ERROR: could not load bundle for %s", bundleID.UTF8String);
+            
+            //unset object
+            self = nil;
+            
+            //bail
+            goto bail;
+        }
+        
+        //extract path
+        self.path = [self.bundle.executableURL path];
+        if(nil == self.path)
+        {
+            //err msg
+            syslog(LOG_ERR, "OBJECTIVE-SEE ERROR: could not get path for %s", self.bundle.description.UTF8String);
+            
+            //unset object
+            self = nil;
+            
+            //bail
+            goto bail;
+        }
+        
+        //get name
+        self.name = [self getName];
         
         //set signing info
         self.signingInfo = extractSigningInfo(self.path);
@@ -63,6 +88,9 @@
         //set icon
         self.icon = [self getIcon];
     }
+    
+//bail
+bail:
 
     //release bundle URL
     if(nil != bundleURL)
@@ -75,7 +103,7 @@
 }
 
 //get kext's name
-// ->either from 'CFBundleName', or file name (via: 'CFBundleExecutable')
+// ->either from 'CFBundleName', 'CFBundleExecutable', or path
 -(NSString*)getName
 {
     //name
@@ -96,6 +124,15 @@
         //save
         // ->but just file name
         kextName = [[self.bundle.infoDictionary[@"CFBundleExecutable"] lastPathComponent] stringByDeletingPathExtension];
+    }
+    
+    //when still nil
+    // ->derive from path
+    if(nil == kextName)
+    {
+        //save
+        // ->but just file name
+        kextName = [[self.path lastPathComponent] stringByDeletingPathExtension];
     }
     
     return kextName;

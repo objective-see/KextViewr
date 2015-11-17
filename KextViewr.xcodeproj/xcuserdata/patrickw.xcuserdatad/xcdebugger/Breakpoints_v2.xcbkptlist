@@ -63,7 +63,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "385"
             endingLineNumber = "385"
-            landmarkName = "-getInfoForItem:scanID:"
+            landmarkName = "-submit:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -78,9 +78,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1545"
-            endingLineNumber = "1545"
-            landmarkName = "-selectBottomPaneContent:"
-            landmarkType = "5">
+            endingLineNumber = "1545">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -143,7 +141,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "218"
             endingLineNumber = "218"
-            landmarkName = "-registerKeypressHandler"
+            landmarkName = "-enumKexts"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -207,7 +205,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "213"
             endingLineNumber = "213"
-            landmarkName = "-filterConnections:items:results:"
+            landmarkName = "-kextFulfillsKeyword:kext:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -222,9 +220,7 @@
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "1507"
-            endingLineNumber = "1507"
-            landmarkName = "-selectBottomPaneContent:"
-            landmarkType = "5">
+            endingLineNumber = "1507">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
