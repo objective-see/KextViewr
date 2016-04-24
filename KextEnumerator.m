@@ -54,17 +54,11 @@
     //kext object
     Kext* kext = nil;
     
-    //table view
-    NSTableView* tableView = nil;
-    
     //virus total object
     VirusTotal* virusTotalObj = nil;
     
     //init virus total object
     virusTotalObj = [[VirusTotal alloc] init];
-    
-    //grab table view
-    tableView = ((AppDelegate*)[[NSApplication sharedApplication] delegate]).kextTableController.itemView;
     
     //sync & reset
     @synchronized(self.kexts)
@@ -133,9 +127,9 @@
         }
         
         //save it
-        // ->key is name?
-        //TODO: maybe make key path or addr? (more unique, can have kext with same name 2x loaded?)
-        [self.kexts setObject:kext forKey:kext.name];
+        // ->key is name
+        //   should work, cuz trying to load different kext w/ same bundle id: 'different version/uuid already loaded'
+        [self.kexts addObject:kext forKey:kext.name atStart:NO];
         
         //reload every 5 kexts
         if(0 == self.kexts.count % 5)

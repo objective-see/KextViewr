@@ -23,6 +23,9 @@
 //OS minor version lion
 #define OS_MINOR_VERSION_LION 8
 
+//OS minor version mavericks
+#define OS_MINOR_VERSION_MAVERICKS 9
+
 //OS minor version yosemite
 #define OS_MINOR_VERSION_YOSEMITE 10
 

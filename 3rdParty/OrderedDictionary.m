@@ -21,123 +21,107 @@
 //     distribution.
 //
 
-#import "Consts.h"
 #import "OrderedDictionary.h"
-
-
-NSString *DescriptionForObject(NSObject *object, id locale, NSUInteger indent)
-{
-	NSString *objectString;
-	if ([object isKindOfClass:[NSString class]])
-	{
-		objectString = (NSString *)object;
-	}
-	else if ([object respondsToSelector:@selector(descriptionWithLocale:indent:)])
-	{
-		objectString = [(NSDictionary *)object descriptionWithLocale:locale indent:indent];
-	}
-	else if ([object respondsToSelector:@selector(descriptionWithLocale:)])
-	{
-		objectString = [(NSSet *)object descriptionWithLocale:locale];
-	}
-	else
-	{
-		objectString = [object description];
-	}
-	return objectString;
-}
 
 @implementation OrderedDictionary
 
 -(id)init
 {
-	return [self initWithCapacity:0];
+    self = [super init];
+    if (self != nil)
+    {
+        dictionary = [NSMutableDictionary dictionary];
+        array = [NSMutableArray array];
+    }
+    return self;
+    
 }
 
-- (id)initWithCapacity:(NSUInteger)capacity
-{
-	self = [super init];
-	if (self != nil)
-	{
-		dictionary = [[NSMutableDictionary alloc] initWithCapacity:capacity];
-		array = [[NSMutableArray alloc] initWithCapacity:capacity];
-	}
-	return self;
-}
-
+//copy
 -(id)copy
 {
-	return [self mutableCopy];
+    return [self mutableCopy];
 }
 
--(void)setObject:(id)anObject forKey:(id)aKey
+//description
+-(NSString*)description
 {
-	if(![dictionary objectForKey:aKey])
-	{
-        //
-		[array addObject:aKey];
-	}
-	[dictionary setObject:anObject forKey:aKey];
+    return dictionary.description;
 }
 
+//remove
 -(void)removeObjectForKey:(id)aKey
 {
 	[dictionary removeObjectForKey:aKey];
 	[array removeObject:aKey];
 }
 
-- (NSUInteger)count
+//count
+-(NSUInteger)count
 {
 	return [dictionary count];
 }
 
+//object for key
 -(id)objectForKey:(id)aKey
 {
 	return [dictionary objectForKey:aKey];
 }
 
--(NSEnumerator *)keyEnumerator
+//reverse key enumerator
+-(NSEnumerator *)reverseKeyEnumerator
 {
-	return [array objectEnumerator];
+    return [array reverseObjectEnumerator];
 }
 
-
--(void)insertObject:(id)anObject forKey:(id)aKey atIndex:(NSUInteger)anIndex
-{
-	if([dictionary objectForKey:aKey])
-	{
-		[self removeObjectForKey:aKey];
-	}
-	[array insertObject:aKey atIndex:anIndex];
-	[dictionary setObject:anObject forKey:aKey];
-}
-
+//key at index
 -(id)keyAtIndex:(NSUInteger)anIndex
 {
-    //object
-    id item = nil;
-    
-    if((nil == array) ||
-       (anIndex >= array.count))
-    {
-        //bail
-        goto bail;
-    }
-    
-    //extract item
-    item = [array objectAtIndex:anIndex];
-    
-//bail
-bail:
-    
-    return item;
+	return [array objectAtIndex:anIndex];
 }
 
-//given a key
-// ->return its index
+//index of key
 -(NSUInteger)indexOfKey:(id)aKey
 {
     return [array indexOfObject:aKey];
+}
+
+-(NSEnumerator *)keyEnumerator
+{
+    return [array objectEnumerator];
+}
+
+//add an object
+// ->either (but only) start or end
+-(void)addObject:(id)anObject forKey:(id)aKey atStart:(BOOL)atStart
+{
+    //if object already exists
+    // ->remove from both dictionary *and* array
+    if(nil != [dictionary objectForKey:aKey])
+    {
+        //remove
+        [self removeObjectForKey:aKey];
+    }
+    
+    //at start?
+    // ->insert into beginning of array
+    if(YES == atStart)
+    {
+        //insert
+        [array insertObject:aKey atIndex:0];
+    }
+    //otherwise at end
+    // ->just add into array
+    else
+    {
+        //add
+        [array addObject:aKey];
+    }
+    
+    //add to dictionary
+    [dictionary setObject:anObject forKey:aKey];
+    
+    return;
 }
 
 @end

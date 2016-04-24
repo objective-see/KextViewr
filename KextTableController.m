@@ -229,7 +229,7 @@ bail:
 
 //configure the VT button
 // ->also set's binary name to red if known malware
--(void) configVTButton:(NSTableCellView *)itemCell kext:(Kext*)kext
+-(void)configVTButton:(NSTableCellView *)itemCell kext:(Kext*)kext
 {
     //virus total button
     // ->for File objects only...
@@ -460,11 +460,28 @@ bail:
     //selected kext
     Kext* selectedKext = nil;
     
+    //filter string
+    NSString* filterString = nil;
+    
     //kext index after reload
     NSUInteger kextIndex = 0;
     
     //grab kexts
     kexts = ((AppDelegate*)[[NSApplication sharedApplication] delegate]).kextEnumerator.kexts;
+    
+    //make sure filter is updated
+    if(YES == self.isFiltered)
+    {
+        //extract filter
+        filterString = ((AppDelegate*)[[NSApplication sharedApplication] delegate]).filterKextsBox.stringValue;
+        
+        //sync
+        @synchronized(self.filteredItems)
+        {
+            //filter
+            [((AppDelegate*)[[NSApplication sharedApplication] delegate]).filterObj filterKexts:filterString items:kexts results:self.filteredItems];
+        }
+    }
     
     //get kext
     selectedKext = [self kextForRow:nil];
@@ -560,14 +577,24 @@ bail:
 -(IBAction)showInFinder:(id)sender
 {
     //kext
-    Kext* kext =  nil;
+    Kext* kext = nil;
+    
+    //file open error alert
+    NSAlert* errorAlert = nil;
     
     //get kext
     kext = [self kextForRow:sender];
     
-    //open Finder
-    // ->will reveal binary
-    [[NSWorkspace sharedWorkspace] selectFile:kext.path inFileViewerRootedAtPath:@""];
+    //open item in Finder
+    // ->error alert shown if file open fails
+    if(YES != [[NSWorkspace sharedWorkspace] selectFile:kext.path inFileViewerRootedAtPath:@""])
+    {
+        //alloc/init alert
+        errorAlert = [NSAlert alertWithMessageText:[NSString stringWithFormat:@"ERROR: failed to open %@", kext.path] defaultButton:@"OK" alternateButton:nil otherButton:nil informativeTextWithFormat:@"errno value: %d", errno];
+        
+        //show it
+        [errorAlert runModal];
+    }
     
     return;
 }

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
         <development version="6000" identifier="xcode"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="8191"/>
-        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="10116"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
@@ -51,15 +50,15 @@
         <window allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="371">
             <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" unifiedTitleAndToolbar="YES"/>
             <rect key="contentRect" x="0.0" y="0.0" width="1354" height="656"/>
-            <rect key="screenRect" x="0.0" y="0.0" width="1440" height="877"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
             <value key="minSize" type="size" width="1000" height="300"/>
             <value key="maxSize" type="size" width="2000" height="1000"/>
             <view key="contentView" id="372">
                 <rect key="frame" x="0.0" y="0.0" width="1354" height="656"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <button misplaced="YES" tag="10004" translatesAutoresizingMaskIntoConstraints="NO" id="HoI-FQ-vTI">
-                        <rect key="frame" x="661" y="5" width="29" height="32"/>
+                    <button tag="10004" translatesAutoresizingMaskIntoConstraints="NO" id="HoI-FQ-vTI">
+                        <rect key="frame" x="663" y="6" width="29" height="32"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="32" id="18R-rR-Udp"/>
                             <constraint firstAttribute="width" constant="29" id="JOy-gX-fMr"/>
@@ -73,7 +72,7 @@
                         </connections>
                     </button>
                     <button toolTip="refresh" ambiguous="YES" misplaced="YES" tag="10001" translatesAutoresizingMaskIntoConstraints="NO" id="hum-Mj-cDd">
-                        <rect key="frame" x="5" y="7" width="32" height="25"/>
+                        <rect key="frame" x="5" y="10" width="32" height="25"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="32" id="ZaY-KC-vcE"/>
                             <constraint firstAttribute="height" constant="25" id="dEM-O0-dda"/>
@@ -86,28 +85,14 @@
                             <action selector="refreshKexts:" target="494" id="tcB-kx-eCT"/>
                         </connections>
                     </button>
-                    <button toolTip="save results" ambiguous="YES" misplaced="YES" tag="10003" translatesAutoresizingMaskIntoConstraints="NO" id="gSG-Nq-plb">
-                        <rect key="frame" x="45" y="8" width="32" height="25"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="32" id="XGt-s5-weq"/>
-                            <constraint firstAttribute="height" constant="25" id="wlR-bC-Msz"/>
-                        </constraints>
-                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="saveIcon" imagePosition="overlaps" alignment="center" alternateImage="saveIconBG" imageScaling="proportionallyDown" inset="2" id="1TF-i7-mBn">
-                            <behavior key="behavior" lightByContents="YES"/>
-                            <font key="font" metaFont="system"/>
-                        </buttonCell>
-                        <connections>
-                            <action selector="saveResults:" target="494" id="gtU-9T-Adm"/>
-                        </connections>
-                    </button>
                     <scrollView autohidesScrollers="YES" horizontalLineScroll="42" horizontalPageScroll="10" verticalLineScroll="42" verticalPageScroll="10" usesPredominantAxisScrolling="NO" horizontalScrollElasticity="none" verticalScrollElasticity="none" translatesAutoresizingMaskIntoConstraints="NO" id="Mwz-Yv-xQu">
-                        <rect key="frame" x="-1" y="45" width="1356" height="612"/>
+                        <rect key="frame" x="-1" y="46" width="1356" height="611"/>
                         <clipView key="contentView" drawsBackground="NO" id="Mhs-Q9-q4a">
-                            <rect key="frame" x="1" y="1" width="1354" height="610"/>
+                            <rect key="frame" x="1" y="1" width="1354" height="609"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="lastColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" columnResizing="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" rowHeight="40" rowSizeStyle="automatic" viewBased="YES" id="kAB-8g-efl">
-                                    <rect key="frame" x="0.0" y="0.0" width="1354" height="0.0"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="1354" height="609"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <size key="intercellSpacing" width="3" height="2"/>
                                     <color key="backgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -274,18 +259,32 @@
                             <action selector="toggleOSFilter:" target="494" id="MPb-7Y-2Cd"/>
                         </connections>
                     </button>
+                    <button toolTip="save results" ambiguous="YES" misplaced="YES" tag="10003" translatesAutoresizingMaskIntoConstraints="NO" id="gSG-Nq-plb">
+                        <rect key="frame" x="45" y="10" width="32" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="32" id="XGt-s5-weq"/>
+                            <constraint firstAttribute="height" constant="25" id="wlR-bC-Msz"/>
+                        </constraints>
+                        <buttonCell key="cell" type="bevel" bezelStyle="regularSquare" image="saveIcon" imagePosition="overlaps" alignment="center" alternateImage="saveIconBG" imageScaling="proportionallyDown" inset="2" id="1TF-i7-mBn">
+                            <behavior key="behavior" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="saveResults:" target="494" id="gtU-9T-Adm"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <constraints>
-                    <constraint firstAttribute="bottom" secondItem="gSG-Nq-plb" secondAttribute="bottom" constant="7" id="B6h-oX-8gB"/>
+                    <constraint firstAttribute="bottom" secondItem="gSG-Nq-plb" secondAttribute="bottom" constant="10" id="B6h-oX-8gB"/>
                     <constraint firstAttribute="bottom" secondItem="gya-we-w4w" secondAttribute="bottom" constant="14" id="NPP-63-6xZ"/>
                     <constraint firstAttribute="trailing" secondItem="gya-we-w4w" secondAttribute="trailing" constant="11" id="Rge-BP-1pZ"/>
-                    <constraint firstAttribute="bottom" secondItem="hum-Mj-cDd" secondAttribute="bottom" constant="7" id="Uqd-BM-7f0"/>
+                    <constraint firstAttribute="bottom" secondItem="hum-Mj-cDd" secondAttribute="bottom" constant="10" id="Uqd-BM-7f0"/>
                     <constraint firstItem="HoI-FQ-vTI" firstAttribute="top" secondItem="Mwz-Yv-xQu" secondAttribute="bottom" constant="8" id="V5G-3s-YDn"/>
                     <constraint firstAttribute="trailing" secondItem="Mwz-Yv-xQu" secondAttribute="trailing" constant="-1" id="rdQ-BJ-YZj"/>
-                    <constraint firstItem="HoI-FQ-vTI" firstAttribute="leading" secondItem="372" secondAttribute="centerX" id="usV-OB-sI5"/>
+                    <constraint firstItem="HoI-FQ-vTI" firstAttribute="centerX" secondItem="372" secondAttribute="centerX" id="usV-OB-sI5"/>
                     <constraint firstItem="Mwz-Yv-xQu" firstAttribute="top" secondItem="372" secondAttribute="top" constant="-1" id="xW7-lQ-rjU"/>
                     <constraint firstItem="Mwz-Yv-xQu" firstAttribute="leading" secondItem="372" secondAttribute="leading" constant="-1" id="xlx-eo-1fA"/>
-                    <constraint firstAttribute="bottom" secondItem="HoI-FQ-vTI" secondAttribute="bottom" constant="5" id="yrc-8a-FQe"/>
+                    <constraint firstAttribute="bottom" secondItem="HoI-FQ-vTI" secondAttribute="bottom" constant="6" id="yrc-8a-FQe"/>
                 </constraints>
             </view>
             <toolbar key="toolbar" implicitIdentifier="EAE4838B-30FD-4B21-8BE5-8564B213BE96" autosavesConfiguration="NO" displayMode="iconAndLabel" sizeMode="regular" id="qEm-Os-zrh">

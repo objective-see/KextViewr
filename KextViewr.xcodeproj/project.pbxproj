@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D21BC4F172AF43D009D1CFD /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D21BC4E172AF43D009D1CFD /* Cocoa.framework */; };
+		7D1222761CCB517000CD38C1 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D1222751CCB517000CD38C1 /* IOKit.framework */; };
 		7DAA78091B903BF1004840B9 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DAA78081B903BF1004840B9 /* CustomTextField.m */; };
 		CD001B381AB903040089014A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CD001B351AB903040089014A /* logo.png */; };
 		CD001B391AB903040089014A /* logoApple.png in Resources */ = {isa = PBXBuildFile; fileRef = CD001B361AB903040089014A /* logoApple.png */; };
@@ -83,6 +84,7 @@
 		1D21BC51172AF43D009D1CFD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1D21BC52172AF43D009D1CFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1D21BC53172AF43D009D1CFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D1222751CCB517000CD38C1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
 		7DAA78071B903BF1004840B9 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
 		7DAA78081B903BF1004840B9 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
 		CD001B351AB903040089014A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = SOURCE_ROOT; };
@@ -169,6 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1222761CCB517000CD38C1 /* IOKit.framework in Frameworks */,
 				CD8C73B91BDDDCC4001B5A7D /* SystemConfiguration.framework in Frameworks */,
 				CDF08CEA1AC8D97B009B3423 /* Quartz.framework in Frameworks */,
 				CD6095731A87067D00E091CD /* Security.framework in Frameworks */,
@@ -218,6 +221,7 @@
 		1D21BC4D172AF43D009D1CFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D1222751CCB517000CD38C1 /* IOKit.framework */,
 				CD8C73B81BDDDCC4001B5A7D /* SystemConfiguration.framework */,
 				CDF08CE91AC8D97B009B3423 /* Quartz.framework */,
 				CD6095721A87067D00E091CD /* Security.framework */,

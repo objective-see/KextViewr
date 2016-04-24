@@ -25,9 +25,6 @@ NSString * const BINARY_KEYWORDS[] = {@"#apple", @"#nonapple", @"#signed", @"#un
     self = [super init];
     if(nil != self)
     {
-        //alloc file filter keywords
-        //fileFilters = [NSMutableArray array];
-        
         //alloc binary filter keywords
         filterKeywords = [NSMutableArray array];
 
@@ -47,34 +44,10 @@ NSString * const BINARY_KEYWORDS[] = {@"#apple", @"#nonapple", @"#signed", @"#un
 {
     //for now just check in binary keywords
     return [self.filterKeywords containsObject:searchString];
-    
-    /*
-    //flag
-    BOOL isKeyword = NO;
-    
-    //iterate over all keywords
-    // ->check for match
-    for(NSUInteger i=0; i < sizeof(KEYWORDS)/sizeof(KEYWORDS[0]); i++)
-    {
-        //check
-        if(YES == [KEYWORDS[i] isEqualToString:searchString])
-        {
-            //match
-            isKeyword = YES;
-            
-            //bail
-            break;
-        }
-    }
-    
-    return isKeyword;
-    */
-    
 }
 
-
 //filter kexts
-// ->name, path
+// ->name, path, & bundle id
 -(void)filterKexts:(NSString*)filterText items:(NSMutableDictionary*)items results:(NSMutableArray*)results
 {
     //kext
@@ -134,6 +107,18 @@ NSString * const BINARY_KEYWORDS[] = {@"#apple", @"#nonapple", @"#signed", @"#un
                 //next
                 continue;
             }
+            
+            //check bundle id
+            if( (nil != kext.bundle.bundleIdentifier) &&
+                (NSNotFound != [kext.bundle.bundleIdentifier rangeOfString:filterText options:NSCaseInsensitiveSearch].location) )
+            {
+                //save match
+                [results addObject:kext];
+                
+                //next
+                continue;
+            }
+            
         }
 
     }//all kexts

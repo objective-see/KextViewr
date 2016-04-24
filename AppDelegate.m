@@ -23,6 +23,8 @@
 @synthesize kextTableController;
 @synthesize aboutWindowController;
 
+//TODO: when filter is checked, and kexts are still being processed....they don't show up in UI :/
+
 //center window
 // ->also make front
 -(void)awakeFromNib

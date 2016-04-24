@@ -29,12 +29,18 @@
 	NSMutableArray *array;
 }
 
-/* METHODS */
-- (void)insertObject:(id)anObject forKey:(id)aKey atIndex:(NSUInteger)anIndex;
-- (id)keyAtIndex:(NSUInteger)anIndex;
-- (NSUInteger)indexOfKey:(id)aKey;
+//add an object
+// ->either (but only) start/end
+-(void)addObject:(id)anObject forKey:(id)aKey atStart:(BOOL)atStart;
 
+//key at index
+-(id)keyAtIndex:(NSUInteger)anIndex;
 
+//index of key
+-(NSUInteger)indexOfKey:(id)aKey;
+
+//reverse key enumerator
+-(NSEnumerator *)reverseKeyEnumerator;
 
 
 @end

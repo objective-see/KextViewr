@@ -44,7 +44,6 @@
     {
         //call up into owner to process
         [owner filterAutoComplete:self];
-        //[((AppDelegate*)[[NSApplication sharedApplication] delegate]) filterAutoComplete:self];
     }
     
 //bail

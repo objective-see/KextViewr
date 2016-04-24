@@ -148,7 +148,7 @@ NSDictionary* extractSigningInfo(NSString* path)
         if(STATUS_SUCCESS != status)
         {
             //err msg
-            //syslog(LOG_ERR, "OBJECTIVE-SEE ERROR: SecCodeCopySigningInformation() failed on %s with %d", [path UTF8String], status);
+            syslog(LOG_ERR, "OBJECTIVE-SEE ERROR: SecCodeCopySigningInformation() failed on %s with %d", [path UTF8String], status);
             
             //bail
             goto bail;
@@ -161,6 +161,9 @@ NSDictionary* extractSigningInfo(NSString* path)
     // ->not signed, or something else, so no need to check cert's names
     else
     {
+        //err msg
+        syslog(LOG_ERR, "OBJECTIVE-SEE ERROR: SecStaticCodeCheckValidityWithErrors() failed on %s with %d", [path UTF8String], status);
+        
         //bail
         goto bail;
     }
