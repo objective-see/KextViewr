@@ -1,0 +1,8 @@
+.DS_Store
+Carthage/*
+DerivedData/*
+*.xcscheme
+*.xcuserstate
+KextViewr.xcodeproj/xcuserdata/*
+KextViewr.xcodeproj/project.xcworkspace/xcuserdata/*
+

@@ -15,53 +15,33 @@
 		CD02194F1AD34D8B005148A2 /* AboutWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD02194D1AD34D8B005148A2 /* AboutWindow.xib */; };
 		CD0219531AD34D9A005148A2 /* AboutWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0219521AD34D9A005148A2 /* AboutWindowController.m */; };
 		CD02195C1AD38823005148A2 /* kkRowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD02195B1AD38823005148A2 /* kkRowCell.m */; };
-		CD0219611AD39A83005148A2 /* ResultsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0219601AD39A83005148A2 /* ResultsWindowController.m */; };
 		CD3F4CE81AF5CF68002A2647 /* KextEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F4CE61AF5CF68002A2647 /* KextEnumerator.m */; };
 		CD3F4CEB1AF6D948002A2647 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3F4CEA1AF6D948002A2647 /* OrderedDictionary.m */; };
 		CD4D53CA1B20296E00008030 /* unknown.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4D53C91B20296E00008030 /* unknown.png */; };
 		CD4D54221B2CE6F200008030 /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4D54211B2CE6F200008030 /* NSMutableArray+QueueAdditions.m */; };
-		CD4D54241B2D082300008030 /* InfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4D54231B2D082300008030 /* InfoWindow.xib */; };
 		CD4D543F1B2FF32C00008030 /* signedAppleIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD4D543E1B2FF32C00008030 /* signedAppleIcon.png */; };
+		CD5813DE299F20A800DEBE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5813DD299F20A800DEBE46 /* Assets.xcassets */; };
+		CD5813E029A06ACB00DEBE46 /* patrons.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD5813DF29A06ACB00DEBE46 /* patrons.txt */; };
+		CD5813E129A07BCD00DEBE46 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA81D561A95B4B4009790E2 /* MainMenu.xib */; };
+		CD5813E329A07CE000DEBE46 /* KextViewr-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD5813E229A07CE000DEBE46 /* KextViewr-Info.plist */; };
+		CD5813E529A07DFD00DEBE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5813E429A07DFD00DEBE46 /* main.m */; };
 		CD6095731A87067D00E091CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6095721A87067D00E091CD /* Security.framework */; };
 		CD6AFB831B4BAA2100D42C34 /* refreshIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AFB821B4BAA2100D42C34 /* refreshIcon.png */; };
 		CD6AFB861B4BABB200D42C34 /* refreshIconBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AFB841B4BABB200D42C34 /* refreshIconBG.png */; };
 		CD6AFB871B4BABB200D42C34 /* refreshIconOver.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AFB851B4BABB200D42C34 /* refreshIconOver.png */; };
 		CD74522E1BCCAE50006EE37A /* Kext.m in Sources */ = {isa = PBXBuildFile; fileRef = CD74522D1BCCAE50006EE37A /* Kext.m */; };
 		CD7B9F4D1ACB959200DF3C71 /* logoAppleOver.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7B9F4C1ACB959200DF3C71 /* logoAppleOver.png */; };
-		CD7B9F501ACB9A8400DF3C71 /* Exception.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9F4F1ACB9A8400DF3C71 /* Exception.m */; };
 		CD7B9FAB1AD08FA100DF3C71 /* KKRow.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7B9FAA1AD08FA100DF3C71 /* KKRow.m */; };
-		CD83887F1AACCEDF000EB098 /* VirusTotal.m in Sources */ = {isa = PBXBuildFile; fileRef = CD83887E1AACCEDF000EB098 /* VirusTotal.m */; };
 		CD8C73B71BDB2171001B5A7D /* kvText.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8C73B61BDB2171001B5A7D /* kvText.png */; };
 		CD8C73B91BDDDCC4001B5A7D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD8C73B81BDDDCC4001B5A7D /* SystemConfiguration.framework */; };
 		CDA81D4F1A95B492009790E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81D451A95B492009790E2 /* AppDelegate.m */; };
-		CDA81D531A95B492009790E2 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81D4E1A95B492009790E2 /* Utilities.m */; };
-		CDA81D5B1A95B4B4009790E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDA81D541A95B4B4009790E2 /* InfoPlist.strings */; };
-		CDA81D5C1A95B4B4009790E2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA81D561A95B4B4009790E2 /* MainMenu.xib */; };
-		CDA81D5E1A95B4B4009790E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81D5A1A95B4B4009790E2 /* main.m */; };
-		CDA81D6B1A95B4E9009790E2 /* show.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA81D611A95B4E9009790E2 /* show.png */; };
-		CDA81D6C1A95B4E9009790E2 /* showBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA81D621A95B4E9009790E2 /* showBG.png */; };
+		CDA81D531A95B492009790E2 /* utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81D4E1A95B492009790E2 /* utilities.m */; };
 		CDA81D741A95B4FB009790E2 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = CDA81D731A95B4FB009790E2 /* icon.iconset */; };
 		CDA81D7B1A95D29B009790E2 /* KextTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81D7A1A95D29B009790E2 /* KextTableController.m */; };
-		CDA81DC91A9960A3009790E2 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA81DC51A9960A3009790E2 /* info.png */; };
-		CDA81DCA1A9960A3009790E2 /* infoBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA81DC61A9960A3009790E2 /* infoBG.png */; };
 		CDA81DD31A9970A0009790E2 /* signed.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA81DD11A9970A0009790E2 /* signed.png */; };
-		CDA81DD41A9970A0009790E2 /* unsigned.png in Resources */ = {isa = PBXBuildFile; fileRef = CDA81DD21A9970A0009790E2 /* unsigned.png */; };
-		CDA81DEA1A997BF1009790E2 /* InfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81DE81A997BF1009790E2 /* InfoWindowController.m */; };
 		CDA81DEE1A99B5F8009790E2 /* Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA81DED1A99B5F8009790E2 /* Filter.m */; };
 		CDBE49181B58DC9B0031FC22 /* NSApplicationKeyEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = CDBE49171B58DC9B0031FC22 /* NSApplicationKeyEvents.m */; };
-		CDD248341AF5947300232422 /* TAAdaptiveSpaceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD248311AF5947300232422 /* TAAdaptiveSpaceItem.m */; };
-		CDD248351AF5947300232422 /* TAAdaptiveSpaceItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD248331AF5947300232422 /* TAAdaptiveSpaceItemView.m */; };
-		CDEE76FC1B3FD44500763826 /* saveIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE76FB1B3FD44500763826 /* saveIcon.png */; };
-		CDEE76FF1B3FD4B000763826 /* saveIconBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE76FD1B3FD4B000763826 /* saveIconBG.png */; };
-		CDEE77001B3FD4B000763826 /* saveIconOver.png in Resources */ = {isa = PBXBuildFile; fileRef = CDEE76FE1B3FD4B000763826 /* saveIconOver.png */; };
 		CDF08CBF1AC3DE25009B3423 /* logoAppleBG.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF08CBE1AC3DE25009B3423 /* logoAppleBG.png */; };
-		CDF08CC11AC3E8B0009B3423 /* showOver.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF08CC01AC3E8B0009B3423 /* showOver.png */; };
-		CDF08CC31AC3E98D009B3423 /* infoOver.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF08CC21AC3E98D009B3423 /* infoOver.png */; };
-		CDF08CC61AC46E75009B3423 /* VTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF08CC51AC46E75009B3423 /* VTButton.m */; };
-		CDF08CDF1AC886F2009B3423 /* VTInfoWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF08CDD1AC886F2009B3423 /* VTInfoWindowController.m */; };
-		CDF08CE21AC88E0F009B3423 /* VTInfoWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDF08CE11AC88E0F009B3423 /* VTInfoWindow.xib */; };
-		CDF08CE61AC89FE1009B3423 /* HyperlinkTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CDF08CE51AC89FE1009B3423 /* HyperlinkTextField.m */; };
-		CDF08CE81AC8A35C009B3423 /* vtLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = CDF08CE71AC8A35C009B3423 /* vtLogo.png */; };
 		CDF08CEA1AC8D97B009B3423 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF08CE91AC8D97B009B3423 /* Quartz.framework */; };
 /* End PBXBuildFile section */
 
@@ -85,84 +65,53 @@
 		1D21BC52172AF43D009D1CFD /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1D21BC53172AF43D009D1CFD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7D1222751CCB517000CD38C1 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
-		7DAA78071B903BF1004840B9 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTextField.h; sourceTree = "<group>"; };
-		7DAA78081B903BF1004840B9 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTextField.m; sourceTree = "<group>"; };
-		CD001B351AB903040089014A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = images/logo.png; sourceTree = SOURCE_ROOT; };
-		CD001B361AB903040089014A /* logoApple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoApple.png; path = images/logoApple.png; sourceTree = SOURCE_ROOT; };
-		CD02194D1AD34D8B005148A2 /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutWindow.xib; path = UI/AboutWindow.xib; sourceTree = "<group>"; };
-		CD0219511AD34D9A005148A2 /* AboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutWindowController.h; sourceTree = "<group>"; };
-		CD0219521AD34D9A005148A2 /* AboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutWindowController.m; sourceTree = "<group>"; };
-		CD02195A1AD38823005148A2 /* kkRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kkRowCell.h; sourceTree = "<group>"; };
-		CD02195B1AD38823005148A2 /* kkRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kkRowCell.m; sourceTree = "<group>"; };
-		CD02195F1AD39A83005148A2 /* ResultsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsWindowController.h; sourceTree = "<group>"; };
-		CD0219601AD39A83005148A2 /* ResultsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsWindowController.m; sourceTree = "<group>"; };
-		CD3F4CE61AF5CF68002A2647 /* KextEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KextEnumerator.m; sourceTree = SOURCE_ROOT; };
-		CD3F4CE71AF5CF68002A2647 /* KextEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KextEnumerator.h; sourceTree = SOURCE_ROOT; };
-		CD3F4CE91AF6D948002A2647 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = 3rdParty/OrderedDictionary.h; sourceTree = "<group>"; };
-		CD3F4CEA1AF6D948002A2647 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = 3rdParty/OrderedDictionary.m; sourceTree = "<group>"; };
-		CD4D53C91B20296E00008030 /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unknown.png; path = images/unknown.png; sourceTree = SOURCE_ROOT; };
-		CD4D54201B2CE6F200008030 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
-		CD4D54211B2CE6F200008030 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
-		CD4D54231B2D082300008030 /* InfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoWindow.xib; path = UI/InfoWindow.xib; sourceTree = "<group>"; };
-		CD4D543E1B2FF32C00008030 /* signedAppleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signedAppleIcon.png; path = images/signedAppleIcon.png; sourceTree = SOURCE_ROOT; };
+		7DAA78071B903BF1004840B9 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTextField.h; path = KextViewr/CustomTextField.h; sourceTree = "<group>"; };
+		7DAA78081B903BF1004840B9 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTextField.m; path = KextViewr/CustomTextField.m; sourceTree = "<group>"; };
+		CD001B351AB903040089014A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = KextViewr/images/logo.png; sourceTree = SOURCE_ROOT; };
+		CD001B361AB903040089014A /* logoApple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoApple.png; path = KextViewr/images/logoApple.png; sourceTree = SOURCE_ROOT; };
+		CD02194D1AD34D8B005148A2 /* AboutWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AboutWindow.xib; path = KextViewr/AboutWindow.xib; sourceTree = "<group>"; };
+		CD0219511AD34D9A005148A2 /* AboutWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutWindowController.h; path = KextViewr/AboutWindowController.h; sourceTree = "<group>"; };
+		CD0219521AD34D9A005148A2 /* AboutWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutWindowController.m; path = KextViewr/AboutWindowController.m; sourceTree = "<group>"; };
+		CD02195A1AD38823005148A2 /* kkRowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kkRowCell.h; path = KextViewr/kkRowCell.h; sourceTree = "<group>"; };
+		CD02195B1AD38823005148A2 /* kkRowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = kkRowCell.m; path = KextViewr/kkRowCell.m; sourceTree = "<group>"; };
+		CD3F4CE61AF5CF68002A2647 /* KextEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KextEnumerator.m; path = KextViewr/KextEnumerator.m; sourceTree = SOURCE_ROOT; };
+		CD3F4CE71AF5CF68002A2647 /* KextEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KextEnumerator.h; path = KextViewr/KextEnumerator.h; sourceTree = SOURCE_ROOT; };
+		CD3F4CE91AF6D948002A2647 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderedDictionary.h; path = KextViewr/3rdParty/OrderedDictionary.h; sourceTree = "<group>"; };
+		CD3F4CEA1AF6D948002A2647 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderedDictionary.m; path = KextViewr/3rdParty/OrderedDictionary.m; sourceTree = "<group>"; };
+		CD4D53C91B20296E00008030 /* unknown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unknown.png; path = KextViewr/images/unknown.png; sourceTree = SOURCE_ROOT; };
+		CD4D54201B2CE6F200008030 /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+QueueAdditions.h"; path = "KextViewr/NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		CD4D54211B2CE6F200008030 /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+QueueAdditions.m"; path = "KextViewr/NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		CD4D543E1B2FF32C00008030 /* signedAppleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signedAppleIcon.png; path = KextViewr/images/signedAppleIcon.png; sourceTree = SOURCE_ROOT; };
+		CD5813DD299F20A800DEBE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = KextViewr/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		CD5813DF29A06ACB00DEBE46 /* patrons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = patrons.txt; path = KextViewr/patrons.txt; sourceTree = SOURCE_ROOT; };
+		CD5813E229A07CE000DEBE46 /* KextViewr-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "KextViewr-Info.plist"; path = "KextViewr/KextViewr-Info.plist"; sourceTree = "<group>"; };
+		CD5813E429A07DFD00DEBE46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KextViewr/main.m; sourceTree = "<group>"; };
 		CD6095721A87067D00E091CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		CD6AFB821B4BAA2100D42C34 /* refreshIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIcon.png; path = images/refreshIcon.png; sourceTree = SOURCE_ROOT; };
-		CD6AFB841B4BABB200D42C34 /* refreshIconBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIconBG.png; path = images/refreshIconBG.png; sourceTree = SOURCE_ROOT; };
-		CD6AFB851B4BABB200D42C34 /* refreshIconOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIconOver.png; path = images/refreshIconOver.png; sourceTree = SOURCE_ROOT; };
-		CD74522C1BCCAE50006EE37A /* Kext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Kext.h; sourceTree = "<group>"; };
-		CD74522D1BCCAE50006EE37A /* Kext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Kext.m; sourceTree = "<group>"; };
-		CD7B9F4C1ACB959200DF3C71 /* logoAppleOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoAppleOver.png; path = images/logoAppleOver.png; sourceTree = SOURCE_ROOT; };
-		CD7B9F4E1ACB9A8400DF3C71 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = SOURCE_ROOT; };
-		CD7B9F4F1ACB9A8400DF3C71 /* Exception.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exception.m; sourceTree = SOURCE_ROOT; };
-		CD7B9FA91AD08FA100DF3C71 /* KKRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKRow.h; sourceTree = "<group>"; };
-		CD7B9FAA1AD08FA100DF3C71 /* KKRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKRow.m; sourceTree = "<group>"; };
-		CD83887D1AACCEDF000EB098 /* VirusTotal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirusTotal.h; sourceTree = "<group>"; };
-		CD83887E1AACCEDF000EB098 /* VirusTotal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirusTotal.m; sourceTree = "<group>"; };
-		CD8C73B61BDB2171001B5A7D /* kvText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kvText.png; sourceTree = SOURCE_ROOT; };
+		CD6AFB821B4BAA2100D42C34 /* refreshIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIcon.png; path = KextViewr/images/refreshIcon.png; sourceTree = SOURCE_ROOT; };
+		CD6AFB841B4BABB200D42C34 /* refreshIconBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIconBG.png; path = KextViewr/images/refreshIconBG.png; sourceTree = SOURCE_ROOT; };
+		CD6AFB851B4BABB200D42C34 /* refreshIconOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIconOver.png; path = KextViewr/images/refreshIconOver.png; sourceTree = SOURCE_ROOT; };
+		CD74522C1BCCAE50006EE37A /* Kext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Kext.h; path = KextViewr/Kext.h; sourceTree = "<group>"; };
+		CD74522D1BCCAE50006EE37A /* Kext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Kext.m; path = KextViewr/Kext.m; sourceTree = "<group>"; };
+		CD7B9F4C1ACB959200DF3C71 /* logoAppleOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoAppleOver.png; path = KextViewr/images/logoAppleOver.png; sourceTree = SOURCE_ROOT; };
+		CD7B9FA91AD08FA100DF3C71 /* KKRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKRow.h; path = KextViewr/KKRow.h; sourceTree = "<group>"; };
+		CD7B9FAA1AD08FA100DF3C71 /* KKRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKRow.m; path = KextViewr/KKRow.m; sourceTree = "<group>"; };
+		CD8C73B61BDB2171001B5A7D /* kvText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kvText.png; path = KextViewr/images/kvText.png; sourceTree = SOURCE_ROOT; };
 		CD8C73B81BDDDCC4001B5A7D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		CDA81D441A95B492009790E2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		CDA81D451A95B492009790E2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = SOURCE_ROOT; };
-		CDA81D481A95B492009790E2 /* Consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = SOURCE_ROOT; };
-		CDA81D4D1A95B492009790E2 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = SOURCE_ROOT; };
-		CDA81D4E1A95B492009790E2 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = SOURCE_ROOT; };
-		CDA81D551A95B4B4009790E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
-		CDA81D571A95B4B4009790E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
-		CDA81D581A95B4B4009790E2 /* KextViewr-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KextViewr-Info.plist"; sourceTree = SOURCE_ROOT; };
-		CDA81D591A95B4B4009790E2 /* KextViewr-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KextViewr-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		CDA81D5A1A95B4B4009790E2 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
-		CDA81D611A95B4E9009790E2 /* show.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = show.png; path = images/show.png; sourceTree = SOURCE_ROOT; };
-		CDA81D621A95B4E9009790E2 /* showBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = showBG.png; path = images/showBG.png; sourceTree = SOURCE_ROOT; };
-		CDA81D731A95B4FB009790E2 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = icon.iconset; path = images/icon.iconset; sourceTree = SOURCE_ROOT; };
-		CDA81D791A95D29B009790E2 /* KextTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KextTableController.h; sourceTree = "<group>"; };
-		CDA81D7A1A95D29B009790E2 /* KextTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KextTableController.m; sourceTree = "<group>"; };
-		CDA81DC51A9960A3009790E2 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = info.png; path = images/info.png; sourceTree = SOURCE_ROOT; };
-		CDA81DC61A9960A3009790E2 /* infoBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infoBG.png; path = images/infoBG.png; sourceTree = SOURCE_ROOT; };
-		CDA81DD11A9970A0009790E2 /* signed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signed.png; path = images/signed.png; sourceTree = SOURCE_ROOT; };
-		CDA81DD21A9970A0009790E2 /* unsigned.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = unsigned.png; path = images/unsigned.png; sourceTree = SOURCE_ROOT; };
-		CDA81DE71A997BF1009790E2 /* InfoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoWindowController.h; sourceTree = "<group>"; };
-		CDA81DE81A997BF1009790E2 /* InfoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoWindowController.m; sourceTree = "<group>"; };
-		CDA81DEC1A99B5F8009790E2 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Filter.h; sourceTree = "<group>"; };
-		CDA81DED1A99B5F8009790E2 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Filter.m; sourceTree = "<group>"; };
-		CDBE49161B58DC9B0031FC22 /* NSApplicationKeyEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSApplicationKeyEvents.h; sourceTree = "<group>"; };
-		CDBE49171B58DC9B0031FC22 /* NSApplicationKeyEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSApplicationKeyEvents.m; sourceTree = "<group>"; };
-		CDD248301AF5947300232422 /* TAAdaptiveSpaceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAAdaptiveSpaceItem.h; path = 3rdParty/TAAdaptiveSpaceItem.h; sourceTree = "<group>"; };
-		CDD248311AF5947300232422 /* TAAdaptiveSpaceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAAdaptiveSpaceItem.m; path = 3rdParty/TAAdaptiveSpaceItem.m; sourceTree = "<group>"; };
-		CDD248321AF5947300232422 /* TAAdaptiveSpaceItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TAAdaptiveSpaceItemView.h; path = 3rdParty/TAAdaptiveSpaceItemView.h; sourceTree = "<group>"; };
-		CDD248331AF5947300232422 /* TAAdaptiveSpaceItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TAAdaptiveSpaceItemView.m; path = 3rdParty/TAAdaptiveSpaceItemView.m; sourceTree = "<group>"; };
-		CDEE76FB1B3FD44500763826 /* saveIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveIcon.png; path = images/saveIcon.png; sourceTree = SOURCE_ROOT; };
-		CDEE76FD1B3FD4B000763826 /* saveIconBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveIconBG.png; path = images/saveIconBG.png; sourceTree = SOURCE_ROOT; };
-		CDEE76FE1B3FD4B000763826 /* saveIconOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = saveIconOver.png; path = images/saveIconOver.png; sourceTree = SOURCE_ROOT; };
-		CDF08CBE1AC3DE25009B3423 /* logoAppleBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoAppleBG.png; path = images/logoAppleBG.png; sourceTree = SOURCE_ROOT; };
-		CDF08CC01AC3E8B0009B3423 /* showOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = showOver.png; path = images/showOver.png; sourceTree = SOURCE_ROOT; };
-		CDF08CC21AC3E98D009B3423 /* infoOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = infoOver.png; path = images/infoOver.png; sourceTree = SOURCE_ROOT; };
-		CDF08CC41AC46E75009B3423 /* VTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTButton.h; sourceTree = SOURCE_ROOT; };
-		CDF08CC51AC46E75009B3423 /* VTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTButton.m; sourceTree = SOURCE_ROOT; };
-		CDF08CDC1AC886F2009B3423 /* VTInfoWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VTInfoWindowController.h; sourceTree = "<group>"; };
-		CDF08CDD1AC886F2009B3423 /* VTInfoWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VTInfoWindowController.m; sourceTree = "<group>"; };
-		CDF08CE11AC88E0F009B3423 /* VTInfoWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VTInfoWindow.xib; path = UI/VTInfoWindow.xib; sourceTree = "<group>"; };
-		CDF08CE41AC89FE1009B3423 /* HyperlinkTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HyperlinkTextField.h; path = 3rdParty/HyperlinkTextField.h; sourceTree = "<group>"; };
-		CDF08CE51AC89FE1009B3423 /* HyperlinkTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HyperlinkTextField.m; path = 3rdParty/HyperlinkTextField.m; sourceTree = "<group>"; };
-		CDF08CE71AC8A35C009B3423 /* vtLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vtLogo.png; path = images/vtLogo.png; sourceTree = SOURCE_ROOT; };
+		CDA81D441A95B492009790E2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KextViewr/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		CDA81D451A95B492009790E2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KextViewr/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		CDA81D481A95B492009790E2 /* consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = consts.h; path = KextViewr/consts.h; sourceTree = SOURCE_ROOT; };
+		CDA81D4D1A95B492009790E2 /* utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utilities.h; path = KextViewr/utilities.h; sourceTree = SOURCE_ROOT; };
+		CDA81D4E1A95B492009790E2 /* utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = utilities.m; path = KextViewr/utilities.m; sourceTree = SOURCE_ROOT; };
+		CDA81D571A95B4B4009790E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = KextViewr/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		CDA81D731A95B4FB009790E2 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; name = icon.iconset; path = KextViewr/images/icon.iconset; sourceTree = SOURCE_ROOT; };
+		CDA81D791A95D29B009790E2 /* KextTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KextTableController.h; path = KextViewr/KextTableController.h; sourceTree = "<group>"; };
+		CDA81D7A1A95D29B009790E2 /* KextTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KextTableController.m; path = KextViewr/KextTableController.m; sourceTree = "<group>"; };
+		CDA81DD11A9970A0009790E2 /* signed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signed.png; path = KextViewr/images/signed.png; sourceTree = SOURCE_ROOT; };
+		CDA81DEC1A99B5F8009790E2 /* Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Filter.h; path = KextViewr/Filter.h; sourceTree = "<group>"; };
+		CDA81DED1A99B5F8009790E2 /* Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Filter.m; path = KextViewr/Filter.m; sourceTree = "<group>"; };
+		CDBE49161B58DC9B0031FC22 /* NSApplicationKeyEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSApplicationKeyEvents.h; path = KextViewr/NSApplicationKeyEvents.h; sourceTree = "<group>"; };
+		CDBE49171B58DC9B0031FC22 /* NSApplicationKeyEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSApplicationKeyEvents.m; path = KextViewr/NSApplicationKeyEvents.m; sourceTree = "<group>"; };
+		CDF08CBE1AC3DE25009B3423 /* logoAppleBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logoAppleBG.png; path = KextViewr/images/logoAppleBG.png; sourceTree = SOURCE_ROOT; };
 		CDF08CE91AC8D97B009B3423 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -185,28 +134,11 @@
 		1D21BC42172AF43D009D1CFD = {
 			isa = PBXGroup;
 			children = (
-				CD74522C1BCCAE50006EE37A /* Kext.h */,
-				CD74522D1BCCAE50006EE37A /* Kext.m */,
-				7DAA78071B903BF1004840B9 /* CustomTextField.h */,
-				7DAA78081B903BF1004840B9 /* CustomTextField.m */,
-				CD4D54201B2CE6F200008030 /* NSMutableArray+QueueAdditions.h */,
-				CDBE49161B58DC9B0031FC22 /* NSApplicationKeyEvents.h */,
-				CDBE49171B58DC9B0031FC22 /* NSApplicationKeyEvents.m */,
-				CD4D54211B2CE6F200008030 /* NSMutableArray+QueueAdditions.m */,
-				CD02195A1AD38823005148A2 /* kkRowCell.h */,
-				CD02195B1AD38823005148A2 /* kkRowCell.m */,
-				CD7B9FA91AD08FA100DF3C71 /* KKRow.h */,
-				CD7B9FAA1AD08FA100DF3C71 /* KKRow.m */,
 				CDF08CE31AC89FD4009B3423 /* 3rdParty */,
-				CD83887D1AACCEDF000EB098 /* VirusTotal.h */,
-				CD83887E1AACCEDF000EB098 /* VirusTotal.m */,
-				CDA81E621AA020E8009790E2 /* UI */,
-				CDA81DEC1A99B5F8009790E2 /* Filter.h */,
-				CDA81DED1A99B5F8009790E2 /* Filter.m */,
-				CDA81D781A95B939009790E2 /* UIControllers */,
-				1D21BC54172AF43D009D1CFD /* KextExplorer */,
 				1D21BC4D172AF43D009D1CFD /* Frameworks */,
+				1D21BC54172AF43D009D1CFD /* KextViewr */,
 				1D21BC4C172AF43D009D1CFD /* Products */,
+				CDA81D781A95B939009790E2 /* UIControllers */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,94 +173,70 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		1D21BC54172AF43D009D1CFD /* KextExplorer */ = {
+		1D21BC54172AF43D009D1CFD /* KextViewr */ = {
 			isa = PBXGroup;
 			children = (
-				CD3F4CE61AF5CF68002A2647 /* KextEnumerator.m */,
-				CD3F4CE71AF5CF68002A2647 /* KextEnumerator.h */,
-				CD7B9F4E1ACB9A8400DF3C71 /* Exception.h */,
-				CD7B9F4F1ACB9A8400DF3C71 /* Exception.m */,
-				CDA81D731A95B4FB009790E2 /* icon.iconset */,
-				CDA81D561A95B4B4009790E2 /* MainMenu.xib */,
-				CDF08CC41AC46E75009B3423 /* VTButton.h */,
-				CDF08CC51AC46E75009B3423 /* VTButton.m */,
+				CD02194D1AD34D8B005148A2 /* AboutWindow.xib */,
 				CDA81D441A95B492009790E2 /* AppDelegate.h */,
 				CDA81D451A95B492009790E2 /* AppDelegate.m */,
-				CDA81D481A95B492009790E2 /* Consts.h */,
-				CDA81D4D1A95B492009790E2 /* Utilities.h */,
-				CDA81D4E1A95B492009790E2 /* Utilities.m */,
+				CD5813DD299F20A800DEBE46 /* Assets.xcassets */,
+				CDA81D481A95B492009790E2 /* consts.h */,
+				7DAA78071B903BF1004840B9 /* CustomTextField.h */,
+				7DAA78081B903BF1004840B9 /* CustomTextField.m */,
+				CDA81DEC1A99B5F8009790E2 /* Filter.h */,
+				CD5813E229A07CE000DEBE46 /* KextViewr-Info.plist */,
+				CDA81DED1A99B5F8009790E2 /* Filter.m */,
 				CD6095501A8329FA00E091CD /* images */,
-				1D21BC55172AF43D009D1CFD /* Supporting Files */,
+				CD74522C1BCCAE50006EE37A /* Kext.h */,
+				CD74522D1BCCAE50006EE37A /* Kext.m */,
+				CD3F4CE71AF5CF68002A2647 /* KextEnumerator.h */,
+				CD3F4CE61AF5CF68002A2647 /* KextEnumerator.m */,
+				CD7B9FA91AD08FA100DF3C71 /* KKRow.h */,
+				CD7B9FAA1AD08FA100DF3C71 /* KKRow.m */,
+				CD02195A1AD38823005148A2 /* kkRowCell.h */,
+				CD02195B1AD38823005148A2 /* kkRowCell.m */,
+				CDA81D561A95B4B4009790E2 /* MainMenu.xib */,
+				CDBE49161B58DC9B0031FC22 /* NSApplicationKeyEvents.h */,
+				CDBE49171B58DC9B0031FC22 /* NSApplicationKeyEvents.m */,
+				CD5813E429A07DFD00DEBE46 /* main.m */,
+				CD4D54201B2CE6F200008030 /* NSMutableArray+QueueAdditions.h */,
+				CD4D54211B2CE6F200008030 /* NSMutableArray+QueueAdditions.m */,
+				CD5813DF29A06ACB00DEBE46 /* patrons.txt */,
+				CDA81D4D1A95B492009790E2 /* utilities.h */,
+				CDA81D4E1A95B492009790E2 /* utilities.m */,
 			);
-			name = KextExplorer;
-			path = "Lesson 53";
-			sourceTree = "<group>";
-		};
-		1D21BC55172AF43D009D1CFD /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CDA81D541A95B4B4009790E2 /* InfoPlist.strings */,
-				CDA81D581A95B4B4009790E2 /* KextViewr-Info.plist */,
-				CDA81D591A95B4B4009790E2 /* KextViewr-Prefix.pch */,
-				CDA81D5A1A95B4B4009790E2 /* main.m */,
-			);
-			name = "Supporting Files";
+			name = KextViewr;
 			sourceTree = "<group>";
 		};
 		CD6095501A8329FA00E091CD /* images */ = {
 			isa = PBXGroup;
 			children = (
+				CDA81D731A95B4FB009790E2 /* icon.iconset */,
 				CD8C73B61BDB2171001B5A7D /* kvText.png */,
 				CD6AFB841B4BABB200D42C34 /* refreshIconBG.png */,
 				CD6AFB851B4BABB200D42C34 /* refreshIconOver.png */,
 				CD6AFB821B4BAA2100D42C34 /* refreshIcon.png */,
-				CDEE76FD1B3FD4B000763826 /* saveIconBG.png */,
-				CDEE76FE1B3FD4B000763826 /* saveIconOver.png */,
-				CDEE76FB1B3FD44500763826 /* saveIcon.png */,
 				CD4D543E1B2FF32C00008030 /* signedAppleIcon.png */,
 				CD4D53C91B20296E00008030 /* unknown.png */,
 				CD7B9F4C1ACB959200DF3C71 /* logoAppleOver.png */,
-				CDF08CE71AC8A35C009B3423 /* vtLogo.png */,
-				CDF08CC21AC3E98D009B3423 /* infoOver.png */,
-				CDF08CC01AC3E8B0009B3423 /* showOver.png */,
 				CDF08CBE1AC3DE25009B3423 /* logoAppleBG.png */,
 				CD001B351AB903040089014A /* logo.png */,
 				CD001B361AB903040089014A /* logoApple.png */,
 				CDA81DD11A9970A0009790E2 /* signed.png */,
-				CDA81DD21A9970A0009790E2 /* unsigned.png */,
-				CDA81DC51A9960A3009790E2 /* info.png */,
-				CDA81DC61A9960A3009790E2 /* infoBG.png */,
-				CDA81D611A95B4E9009790E2 /* show.png */,
-				CDA81D621A95B4E9009790E2 /* showBG.png */,
 			);
 			name = images;
+			path = KextViewr/images;
 			sourceTree = "<group>";
 		};
 		CDA81D781A95B939009790E2 /* UIControllers */ = {
 			isa = PBXGroup;
 			children = (
-				CD02195F1AD39A83005148A2 /* ResultsWindowController.h */,
-				CD0219601AD39A83005148A2 /* ResultsWindowController.m */,
 				CD0219511AD34D9A005148A2 /* AboutWindowController.h */,
 				CD0219521AD34D9A005148A2 /* AboutWindowController.m */,
-				CDF08CDC1AC886F2009B3423 /* VTInfoWindowController.h */,
-				CDF08CDD1AC886F2009B3423 /* VTInfoWindowController.m */,
-				CDA81DE71A997BF1009790E2 /* InfoWindowController.h */,
-				CDA81DE81A997BF1009790E2 /* InfoWindowController.m */,
 				CDA81D791A95D29B009790E2 /* KextTableController.h */,
 				CDA81D7A1A95D29B009790E2 /* KextTableController.m */,
 			);
 			name = UIControllers;
-			sourceTree = "<group>";
-		};
-		CDA81E621AA020E8009790E2 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				CD4D54231B2D082300008030 /* InfoWindow.xib */,
-				CD02194D1AD34D8B005148A2 /* AboutWindow.xib */,
-				CDF08CE11AC88E0F009B3423 /* VTInfoWindow.xib */,
-			);
-			name = UI;
 			sourceTree = "<group>";
 		};
 		CDF08CE31AC89FD4009B3423 /* 3rdParty */ = {
@@ -336,12 +244,6 @@
 			children = (
 				CD3F4CE91AF6D948002A2647 /* OrderedDictionary.h */,
 				CD3F4CEA1AF6D948002A2647 /* OrderedDictionary.m */,
-				CDD248301AF5947300232422 /* TAAdaptiveSpaceItem.h */,
-				CDD248311AF5947300232422 /* TAAdaptiveSpaceItem.m */,
-				CDD248321AF5947300232422 /* TAAdaptiveSpaceItemView.h */,
-				CDD248331AF5947300232422 /* TAAdaptiveSpaceItemView.m */,
-				CDF08CE41AC89FE1009B3423 /* HyperlinkTextField.h */,
-				CDF08CE51AC89FE1009B3423 /* HyperlinkTextField.m */,
 			);
 			name = 3rdParty;
 			sourceTree = "<group>";
@@ -363,7 +265,7 @@
 			dependencies = (
 			);
 			name = KextViewr;
-			productName = "Lesson 53";
+			productName = KextViewr;
 			productReference = 1D21BC4B172AF43D009D1CFD /* KextViewr.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -373,7 +275,7 @@
 		1D21BC43172AF43D009D1CFD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1420;
 				ORGANIZATIONNAME = "Lucas Derraugh";
 				TargetAttributes = {
 					1D21BC4A172AF43D009D1CFD = {
@@ -386,6 +288,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 1D21BC42172AF43D009D1CFD;
@@ -403,33 +306,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDF08CE81AC8A35C009B3423 /* vtLogo.png in Resources */,
 				CD8C73B71BDB2171001B5A7D /* kvText.png in Resources */,
 				CD6AFB861B4BABB200D42C34 /* refreshIconBG.png in Resources */,
-				CDEE76FF1B3FD4B000763826 /* saveIconBG.png in Resources */,
-				CDA81D5B1A95B4B4009790E2 /* InfoPlist.strings in Resources */,
 				CD4D53CA1B20296E00008030 /* unknown.png in Resources */,
-				CDA81D6B1A95B4E9009790E2 /* show.png in Resources */,
 				CD6AFB871B4BABB200D42C34 /* refreshIconOver.png in Resources */,
 				CD001B391AB903040089014A /* logoApple.png in Resources */,
-				CDEE76FC1B3FD44500763826 /* saveIcon.png in Resources */,
-				CDA81D5C1A95B4B4009790E2 /* MainMenu.xib in Resources */,
+				CD5813E329A07CE000DEBE46 /* KextViewr-Info.plist in Resources */,
+				CD5813E129A07BCD00DEBE46 /* MainMenu.xib in Resources */,
 				CD7B9F4D1ACB959200DF3C71 /* logoAppleOver.png in Resources */,
-				CDA81DD41A9970A0009790E2 /* unsigned.png in Resources */,
-				CDF08CC11AC3E8B0009B3423 /* showOver.png in Resources */,
-				CD4D54241B2D082300008030 /* InfoWindow.xib in Resources */,
 				CD001B381AB903040089014A /* logo.png in Resources */,
-				CDF08CC31AC3E98D009B3423 /* infoOver.png in Resources */,
 				CD4D543F1B2FF32C00008030 /* signedAppleIcon.png in Resources */,
-				CDA81D6C1A95B4E9009790E2 /* showBG.png in Resources */,
-				CDEE77001B3FD4B000763826 /* saveIconOver.png in Resources */,
+				CD5813DE299F20A800DEBE46 /* Assets.xcassets in Resources */,
+				CD5813E029A06ACB00DEBE46 /* patrons.txt in Resources */,
 				CDF08CBF1AC3DE25009B3423 /* logoAppleBG.png in Resources */,
-				CDF08CE21AC88E0F009B3423 /* VTInfoWindow.xib in Resources */,
 				CD6AFB831B4BAA2100D42C34 /* refreshIcon.png in Resources */,
-				CDA81DC91A9960A3009790E2 /* info.png in Resources */,
 				CDA81D741A95B4FB009790E2 /* icon.iconset in Resources */,
 				CD02194F1AD34D8B005148A2 /* AboutWindow.xib in Resources */,
-				CDA81DCA1A9960A3009790E2 /* infoBG.png in Resources */,
 				CDA81DD31A9970A0009790E2 /* signed.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,26 +335,17 @@
 			files = (
 				CD3F4CE81AF5CF68002A2647 /* KextEnumerator.m in Sources */,
 				CD4D54221B2CE6F200008030 /* NSMutableArray+QueueAdditions.m in Sources */,
-				CD83887F1AACCEDF000EB098 /* VirusTotal.m in Sources */,
-				CDF08CDF1AC886F2009B3423 /* VTInfoWindowController.m in Sources */,
 				CD3F4CEB1AF6D948002A2647 /* OrderedDictionary.m in Sources */,
-				CD0219611AD39A83005148A2 /* ResultsWindowController.m in Sources */,
 				CDA81DEE1A99B5F8009790E2 /* Filter.m in Sources */,
 				7DAA78091B903BF1004840B9 /* CustomTextField.m in Sources */,
 				CDA81D7B1A95D29B009790E2 /* KextTableController.m in Sources */,
-				CDA81DEA1A997BF1009790E2 /* InfoWindowController.m in Sources */,
 				CD74522E1BCCAE50006EE37A /* Kext.m in Sources */,
 				CD02195C1AD38823005148A2 /* kkRowCell.m in Sources */,
-				CDF08CE61AC89FE1009B3423 /* HyperlinkTextField.m in Sources */,
 				CDA81D4F1A95B492009790E2 /* AppDelegate.m in Sources */,
-				CDA81D5E1A95B4B4009790E2 /* main.m in Sources */,
-				CD7B9F501ACB9A8400DF3C71 /* Exception.m in Sources */,
-				CDD248341AF5947300232422 /* TAAdaptiveSpaceItem.m in Sources */,
 				CD0219531AD34D9A005148A2 /* AboutWindowController.m in Sources */,
-				CDF08CC61AC46E75009B3423 /* VTButton.m in Sources */,
-				CDD248351AF5947300232422 /* TAAdaptiveSpaceItemView.m in Sources */,
 				CDBE49181B58DC9B0031FC22 /* NSApplicationKeyEvents.m in Sources */,
-				CDA81D531A95B492009790E2 /* Utilities.m in Sources */,
+				CDA81D531A95B492009790E2 /* utilities.m in Sources */,
+				CD5813E529A07DFD00DEBE46 /* main.m in Sources */,
 				CD7B9FAB1AD08FA100DF3C71 /* KKRow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,20 +353,13 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CDA81D541A95B4B4009790E2 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CDA81D551A95B4B4009790E2 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		CDA81D561A95B4B4009790E2 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				CDA81D571A95B4B4009790E2 /* en */,
 			);
 			name = MainMenu.xib;
+			path = KextViewr;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -493,20 +369,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -516,13 +409,14 @@
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "KextViewr-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = KextViewr;
@@ -534,29 +428,47 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_PARAMETER = NO;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = "KextViewr-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.objective-see.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = KextViewr;
@@ -567,13 +479,20 @@
 		1D21BC69172AF43D009D1CFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2.0.0;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KextViewr-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "KextViewr-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				INFOPLIST_KEY_CFBundleDisplayName = KextViewr;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_NAME = KextViewr;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -583,13 +502,20 @@
 		1D21BC6A172AF43D009D1CFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 2.0.0;
+				DEAD_CODE_STRIPPING = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "KextViewr-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "KextViewr-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				INFOPLIST_KEY_CFBundleDisplayName = KextViewr;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 2.0.0;
 				PRODUCT_NAME = KextViewr;
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
