@@ -23,7 +23,7 @@
 		CD5813DE299F20A800DEBE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD5813DD299F20A800DEBE46 /* Assets.xcassets */; };
 		CD5813E029A06ACB00DEBE46 /* patrons.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD5813DF29A06ACB00DEBE46 /* patrons.txt */; };
 		CD5813E129A07BCD00DEBE46 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA81D561A95B4B4009790E2 /* MainMenu.xib */; };
-		CD5813E329A07CE000DEBE46 /* KextViewr-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD5813E229A07CE000DEBE46 /* KextViewr-Info.plist */; };
+		CD5813E329A07CE000DEBE46 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD5813E229A07CE000DEBE46 /* Info.plist */; };
 		CD5813E529A07DFD00DEBE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD5813E429A07DFD00DEBE46 /* main.m */; };
 		CD6095731A87067D00E091CD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6095721A87067D00E091CD /* Security.framework */; };
 		CD6AFB831B4BAA2100D42C34 /* refreshIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6AFB821B4BAA2100D42C34 /* refreshIcon.png */; };
@@ -84,7 +84,7 @@
 		CD4D543E1B2FF32C00008030 /* signedAppleIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = signedAppleIcon.png; path = KextViewr/images/signedAppleIcon.png; sourceTree = SOURCE_ROOT; };
 		CD5813DD299F20A800DEBE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = KextViewr/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		CD5813DF29A06ACB00DEBE46 /* patrons.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = patrons.txt; path = KextViewr/patrons.txt; sourceTree = SOURCE_ROOT; };
-		CD5813E229A07CE000DEBE46 /* KextViewr-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "KextViewr-Info.plist"; path = "KextViewr/KextViewr-Info.plist"; sourceTree = "<group>"; };
+		CD5813E229A07CE000DEBE46 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KextViewr/Info.plist; sourceTree = "<group>"; };
 		CD5813E429A07DFD00DEBE46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KextViewr/main.m; sourceTree = "<group>"; };
 		CD6095721A87067D00E091CD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		CD6AFB821B4BAA2100D42C34 /* refreshIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = refreshIcon.png; path = KextViewr/images/refreshIcon.png; sourceTree = SOURCE_ROOT; };
@@ -184,7 +184,7 @@
 				7DAA78071B903BF1004840B9 /* CustomTextField.h */,
 				7DAA78081B903BF1004840B9 /* CustomTextField.m */,
 				CDA81DEC1A99B5F8009790E2 /* Filter.h */,
-				CD5813E229A07CE000DEBE46 /* KextViewr-Info.plist */,
+				CD5813E229A07CE000DEBE46 /* Info.plist */,
 				CDA81DED1A99B5F8009790E2 /* Filter.m */,
 				CD6095501A8329FA00E091CD /* images */,
 				CD74522C1BCCAE50006EE37A /* Kext.h */,
@@ -311,7 +311,7 @@
 				CD4D53CA1B20296E00008030 /* unknown.png in Resources */,
 				CD6AFB871B4BABB200D42C34 /* refreshIconOver.png in Resources */,
 				CD001B391AB903040089014A /* logoApple.png in Resources */,
-				CD5813E329A07CE000DEBE46 /* KextViewr-Info.plist in Resources */,
+				CD5813E329A07CE000DEBE46 /* Info.plist in Resources */,
 				CD5813E129A07BCD00DEBE46 /* MainMenu.xib in Resources */,
 				CD7B9F4D1ACB959200DF3C71 /* logoAppleOver.png in Resources */,
 				CD001B381AB903040089014A /* logo.png in Resources */,
@@ -487,7 +487,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "KextViewr-Info.plist";
+				INFOPLIST_FILE = KextViewr/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = KextViewr;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;
@@ -510,7 +510,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
-				INFOPLIST_FILE = "KextViewr-Info.plist";
+				INFOPLIST_FILE = KextViewr/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = KextViewr;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_NSMainNibFile = MainMenu;

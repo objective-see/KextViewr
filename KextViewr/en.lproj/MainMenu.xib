@@ -90,7 +90,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <clipView key="contentView" drawsBackground="NO" id="Mhs-Q9-q4a">
                             <rect key="frame" x="1" y="1" width="1300" height="742"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            <autoresizingMask key="autoresizingMask"/>
                             <subviews>
                                 <tableView verticalHuggingPriority="750" allowsExpansionToolTips="YES" columnAutoresizingStyle="firstColumnOnly" alternatingRowBackgroundColors="YES" columnReordering="NO" multipleSelection="NO" emptySelection="NO" autosaveColumns="NO" typeSelect="NO" rowHeight="45" headerView="hDZ-Ig-oLo" viewBased="YES" id="kAB-8g-efl">
                                     <rect key="frame" x="0.0" y="0.0" width="1300" height="714"/>
@@ -112,7 +112,7 @@
                                             <tableColumnResizingMask key="resizingMask" resizeWithTable="YES"/>
                                             <prototypeCellViews>
                                                 <tableCellView identifier="kextCell" id="MaT-0L-0UI" customClass="kkRowCell">
-                                                    <rect key="frame" x="1" y="1" width="683" height="40"/>
+                                                    <rect key="frame" x="11" y="1" width="683" height="40"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" tag="100" translatesAutoresizingMaskIntoConstraints="NO" id="UWH-E1-iYn">
@@ -168,7 +168,7 @@
                                             </textFieldCell>
                                             <prototypeCellViews>
                                                 <tableCellView identifier="simpleCell" id="vdj-ag-JL4">
-                                                    <rect key="frame" x="687" y="1" width="148" height="17"/>
+                                                    <rect key="frame" x="697" y="1" width="148" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8cm-oM-zJZ">
@@ -199,7 +199,7 @@
                                             </textFieldCell>
                                             <prototypeCellViews>
                                                 <tableCellView id="uaR-ZL-PVf">
-                                                    <rect key="frame" x="838" y="1" width="206" height="17"/>
+                                                    <rect key="frame" x="848" y="1" width="206" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ltI-4y-3Oq">
@@ -230,7 +230,7 @@
                                             </textFieldCell>
                                             <prototypeCellViews>
                                                 <tableCellView id="tOH-MT-ct9">
-                                                    <rect key="frame" x="1047" y="1" width="142" height="17"/>
+                                                    <rect key="frame" x="1057" y="1" width="142" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t9v-Ho-lXb">
@@ -261,7 +261,7 @@
                                             </textFieldCell>
                                             <prototypeCellViews>
                                                 <tableCellView id="dyw-gk-fUc">
-                                                    <rect key="frame" x="1192" y="1" width="77" height="17"/>
+                                                    <rect key="frame" x="1202" y="1" width="77" height="17"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                     <subviews>
                                                         <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2rf-ml-PW0">
@@ -303,7 +303,7 @@
                         </tableHeaderView>
                     </scrollView>
                     <button translatesAutoresizingMaskIntoConstraints="NO" id="gya-we-w4w">
-                        <rect key="frame" x="1158" y="10" width="130" height="32"/>
+                        <rect key="frame" x="1158" y="9.5" width="130" height="34"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="30" id="GyE-Ye-imU"/>
                             <constraint firstAttribute="width" constant="128" id="euh-XQ-UgA"/>
